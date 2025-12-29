@@ -8,9 +8,9 @@ pass15:
     fr: "Pass 15"
   basePrice: 1500
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
+    data: 65GB
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -24,9 +24,9 @@ pass20:
     fr: "Pass 20"
   basePrice: 2000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
+    data: 115GB
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -40,9 +40,9 @@ pass30:
     fr: "Pass 30"
   basePrice: 3000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
+    data: 165GB
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -56,9 +56,9 @@ iziflow:
     fr: "iZiFlow"
   basePrice: 5000
   currency: XOF
-  validity: TBD
+  validity: 7d
   resources:
-    data: TBD
+    data: 15GB
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -72,9 +72,9 @@ izibuzz:
     fr: "iZiBuzz"
   basePrice: 10000
   currency: XOF
-  validity: TBD
+  validity: 24h
   resources:
-    data: TBD
+    data: 5GB
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]

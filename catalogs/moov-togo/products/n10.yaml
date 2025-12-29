@@ -6,11 +6,12 @@ n10voix:
   id: n10voix
   name:
     fr: "N10 Voix"
-  basePrice: 1000
+  basePrice: 10000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    voice: TBD
+    voice: 1440min
+  notes: "24 hours of voice calls"
   tags: [voice, n10]
   visible:
     channels: [ussd, app]
@@ -22,11 +23,12 @@ n10data:
   id: n10data
   name:
     fr: "N10 Data"
-  basePrice: 1000
+  basePrice: 10000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
+    data: 9GB
+  notes: "Shareable data bundle"
   tags: [data, n10]
   visible:
     channels: [ussd, app]
@@ -38,13 +40,13 @@ n10mixte1:
   id: n10mixte1
   name:
     fr: "N10 Mixte 1"
-  basePrice: 1000
+  basePrice: 10000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 180min
+    data: 9GB
+  notes: "3 hours voice + shareable data"
   tags: [combo, n10]
   visible:
     channels: [ussd, app]
@@ -56,13 +58,13 @@ n10mixte2:
   id: n10mixte2
   name:
     fr: "N10 Mixte 2"
-  basePrice: 1000
+  basePrice: 10000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 180min
+    data: 9GB
+  notes: "3 hours voice + shareable data"
   tags: [combo, n10]
   visible:
     channels: [ussd, app]

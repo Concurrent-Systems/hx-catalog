@@ -8,9 +8,9 @@ izimoon:
     fr: "iZi Moon 200F"
   basePrice: 200
   currency: XOF
-  validity: TBD
+  validity: 1 night
   resources:
-    data: TBD
+    data: 4GB
   tags: [data, night]
   visible:
     channels: [ussd, app]
@@ -24,10 +24,11 @@ moovnight:
     fr: "Moov Night 100F"
   basePrice: 100
   currency: XOF
-  validity: TBD
+  validity: 22h-3h59
   resources:
-    data: TBD
-  tags: [data, night]
+    voice: 1h
+  notes: "Moov-to-Moov calls only"
+  tags: [voice, night]
   visible:
     channels: [ussd, app]
     caller_type: [subscriber, agent]

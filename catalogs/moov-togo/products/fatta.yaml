@@ -8,11 +8,11 @@ f150:
     fr: "Fatta 150F"
   basePrice: 150
   currency: XOF
-  validity: TBD
+  validity: 1d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 7min
+    sms: 10
+    data: 10MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -26,11 +26,11 @@ f250:
     fr: "Fatta 250F"
   basePrice: 250
   currency: XOF
-  validity: TBD
+  validity: 2d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 15min
+    sms: 20
+    data: 20MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -44,11 +44,11 @@ f450:
     fr: "Fatta 450F"
   basePrice: 450
   currency: XOF
-  validity: TBD
+  validity: 3d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 25min
+    sms: 50
+    data: 50MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -62,11 +62,11 @@ f600:
     fr: "Fatta 600F"
   basePrice: 600
   currency: XOF
-  validity: TBD
+  validity: 3d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 40min
+    sms: 50
+    data: 50MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -80,11 +80,11 @@ f900:
     fr: "Fatta 900F"
   basePrice: 900
   currency: XOF
-  validity: TBD
+  validity: 7d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 60min
+    sms: 100
+    data: 100MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -98,11 +98,11 @@ f1400:
     fr: "Fatta 1400F"
   basePrice: 1400
   currency: XOF
-  validity: TBD
+  validity: 10d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 100min
+    sms: 160
+    data: 160MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -116,11 +116,11 @@ f2500:
     fr: "Fatta 2500F"
   basePrice: 2500
   currency: XOF
-  validity: TBD
+  validity: 15d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 150min
+    sms: 200
+    data: 350MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -134,11 +134,11 @@ f5000:
     fr: "Fatta 5000F"
   basePrice: 5000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 360min
+    sms: 200
+    data: 1500MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -152,11 +152,11 @@ f7000:
     fr: "Fatta 7000F"
   basePrice: 7000
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 570min
+    sms: 100
+    data: 2000MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]
@@ -170,11 +170,11 @@ f9500:
     fr: "Fatta 9500F"
   basePrice: 9500
   currency: XOF
-  validity: TBD
+  validity: 30d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 750min
+    sms: 200
+    data: 2500MB
   tags: [combo, fatta]
   visible:
     channels: [ussd, app]

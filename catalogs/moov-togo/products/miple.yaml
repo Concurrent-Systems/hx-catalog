@@ -8,11 +8,11 @@ miple350:
     fr: "Miplé 350F"
   basePrice: 350
   currency: XOF
-  validity: TBD
+  validity: 1d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 5min
+    sms: 10
+    data: 10MB
   tags: [combo, miple]
   visible:
     channels: [ussd, app]
@@ -26,11 +26,11 @@ miple500:
     fr: "Miplé 500F"
   basePrice: 500
   currency: XOF
-  validity: TBD
+  validity: 2d
   resources:
-    data: TBD
-    voice: TBD
-    sms: TBD
+    voice: 40min
+    sms: 40
+    data: 40MB
   tags: [combo, miple]
   visible:
     channels: [ussd, app]

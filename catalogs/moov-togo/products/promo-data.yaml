@@ -8,9 +8,9 @@ iziweekend1:
     fr: "iZi WeekEnd 1 500F"
   basePrice: 500
   currency: XOF
-  validity: TBD
+  validity: weekend
   resources:
-    data: TBD
+    data: 2GB
   tags: [data, promo, weekend]
   visible:
     channels: [ussd, app]
@@ -24,9 +24,9 @@ iziweekend2:
     fr: "iZi WeekEnd 2 1000F"
   basePrice: 1000
   currency: XOF
-  validity: TBD
+  validity: weekend
   resources:
-    data: TBD
+    data: 6GB
   tags: [data, promo, weekend]
   visible:
     channels: [ussd, app]
@@ -40,9 +40,9 @@ iziflex1:
     fr: "iZi Flex 1 2000F"
   basePrice: 2000
   currency: XOF
-  validity: TBD
+  validity: 1d
   resources:
-    data: TBD
+    data: 1GB
   tags: [data, promo, flex]
   visible:
     channels: [ussd, app]
@@ -56,9 +56,9 @@ iziflex2:
     fr: "iZi Flex 2 3000F"
   basePrice: 3000
   currency: XOF
-  validity: TBD
+  validity: 2d
   resources:
-    data: TBD
+    data: 3GB
   tags: [data, promo, flex]
   visible:
     channels: [ussd, app]
