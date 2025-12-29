@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════════════════
-# DATA NO LIMIT (Pass range)
+# DATA NO LIMIT (Pass range - unlimited speed data)
 # ══════════════════════════════════════════════════════════════════════════════
 
 pass15:
@@ -8,6 +8,9 @@ pass15:
     fr: "Pass 15"
   basePrice: 1500
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -21,6 +24,9 @@ pass20:
     fr: "Pass 20"
   basePrice: 2000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -34,6 +40,9 @@ pass30:
     fr: "Pass 30"
   basePrice: 3000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -47,6 +56,9 @@ iziflow:
     fr: "iZiFlow"
   basePrice: 5000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]
@@ -60,6 +72,9 @@ izibuzz:
     fr: "iZiBuzz"
   basePrice: 10000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, nolimit]
   visible:
     channels: [ussd, app]

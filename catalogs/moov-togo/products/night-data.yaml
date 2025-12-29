@@ -8,6 +8,9 @@ izimoon:
     fr: "iZi Moon 200F"
   basePrice: 200
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, night]
   visible:
     channels: [ussd, app]
@@ -21,6 +24,9 @@ moovnight:
     fr: "Moov Night 100F"
   basePrice: 100
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, night]
   visible:
     channels: [ussd, app]

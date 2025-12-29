@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════════════════
-# MIPLÉ
+# MIPLÉ (Combo bundles)
 # ══════════════════════════════════════════════════════════════════════════════
 
 miple350:
@@ -8,6 +8,11 @@ miple350:
     fr: "Miplé 350F"
   basePrice: 350
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
+    voice: TBD
+    sms: TBD
   tags: [combo, miple]
   visible:
     channels: [ussd, app]
@@ -21,6 +26,11 @@ miple500:
     fr: "Miplé 500F"
   basePrice: 500
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
+    voice: TBD
+    sms: TBD
   tags: [combo, miple]
   visible:
     channels: [ussd, app]

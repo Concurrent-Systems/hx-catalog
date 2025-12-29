@@ -8,6 +8,9 @@ izifree:
     fr: "iZi'Free 100F"
   basePrice: 100
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -21,6 +24,9 @@ izicool:
     fr: "iZiCool 200F"
   basePrice: 200
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -34,6 +40,9 @@ izikif:
     fr: "iZiKif 300F"
   basePrice: 300
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -47,6 +56,9 @@ izirelax:
     fr: "iZiRelax 500F"
   basePrice: 500
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -60,6 +72,9 @@ iziwik:
     fr: "iZiWik 1000F"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -73,6 +88,9 @@ izismall1:
     fr: "iZi Small 1 2500F"
   basePrice: 2500
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -86,6 +104,9 @@ izismall2:
     fr: "iZi Small 2 4500F"
   basePrice: 4500
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -99,6 +120,9 @@ izimedium1:
     fr: "iZi Medium 1 5000F"
   basePrice: 5000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -112,6 +136,9 @@ izimedium2:
     fr: "iZi Medium 2 9000F"
   basePrice: 9000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]
@@ -125,6 +152,9 @@ izilarge:
     fr: "iZi Large 15000F"
   basePrice: 15000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, izi]
   visible:
     channels: [ussd, app]

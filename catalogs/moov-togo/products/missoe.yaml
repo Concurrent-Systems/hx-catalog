@@ -8,6 +8,9 @@ missoe300:
     fr: "Miss Oé 300F"
   basePrice: 300
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -21,6 +24,9 @@ p228:
     fr: "P228"
   basePrice: 228
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -34,6 +40,9 @@ p250:
     fr: "P250"
   basePrice: 250
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -47,6 +56,9 @@ p450:
     fr: "P450"
   basePrice: 450
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -60,6 +72,9 @@ p500:
     fr: "P500"
   basePrice: 500
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -73,6 +88,9 @@ p800:
     fr: "P800"
   basePrice: 800
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -86,6 +104,9 @@ p1000:
     fr: "P1000"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]
@@ -99,6 +120,9 @@ forfait_fatta:
     fr: "Forfait Fatta"
   basePrice: 500
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, missoe]
   visible:
     channels: [ussd, app]

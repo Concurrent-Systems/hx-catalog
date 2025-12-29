@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════════════════
-# GAMME N10
+# GAMME N10 (Voice, Data, and Combo options)
 # ══════════════════════════════════════════════════════════════════════════════
 
 n10voix:
@@ -8,6 +8,9 @@ n10voix:
     fr: "N10 Voix"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    voice: TBD
   tags: [voice, n10]
   visible:
     channels: [ussd, app]
@@ -21,6 +24,9 @@ n10data:
     fr: "N10 Data"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
   tags: [data, n10]
   visible:
     channels: [ussd, app]
@@ -34,6 +40,11 @@ n10mixte1:
     fr: "N10 Mixte 1"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
+    voice: TBD
+    sms: TBD
   tags: [combo, n10]
   visible:
     channels: [ussd, app]
@@ -47,6 +58,11 @@ n10mixte2:
     fr: "N10 Mixte 2"
   basePrice: 1000
   currency: XOF
+  validity: TBD
+  resources:
+    data: TBD
+    voice: TBD
+    sms: TBD
   tags: [combo, n10]
   visible:
     channels: [ussd, app]
