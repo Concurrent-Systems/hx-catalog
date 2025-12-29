@@ -1,0 +1,55 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# GAMME N10
+# ══════════════════════════════════════════════════════════════════════════════
+
+n10voix:
+  id: n10voix
+  name:
+    fr: "N10 Voix"
+  basePrice: 1000
+  currency: XOF
+  tags: [voice, n10]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+n10data:
+  id: n10data
+  name:
+    fr: "N10 Data"
+  basePrice: 1000
+  currency: XOF
+  tags: [data, n10]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+n10mixte1:
+  id: n10mixte1
+  name:
+    fr: "N10 Mixte 1"
+  basePrice: 1000
+  currency: XOF
+  tags: [combo, n10]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+n10mixte2:
+  id: n10mixte2
+  name:
+    fr: "N10 Mixte 2"
+  basePrice: 1000
+  currency: XOF
+  tags: [combo, n10]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

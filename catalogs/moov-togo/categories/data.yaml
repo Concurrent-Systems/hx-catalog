@@ -1,9 +1,0 @@
-id: data
-name:
-  fr: "Forfaits Data"
-  en: "Data Bundles"
-products:
-  - daily50
-  - weekly500
-  - monthly1g
-  - monthly5g

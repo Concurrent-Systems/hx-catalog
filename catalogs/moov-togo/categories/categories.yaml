@@ -1,0 +1,111 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# MOOV TOGO CATEGORIES
+# ══════════════════════════════════════════════════════════════════════════════
+
+data:
+  id: data
+  name:
+    fr: "FORFAITS DATA"
+    en: "DATA BUNDLES"
+  products:
+    - izifree
+    - izicool
+    - izikif
+    - izirelax
+    - iziwik
+    - izismall1
+    - izismall2
+    - izimedium1
+    - izimedium2
+    - izilarge
+
+night:
+  id: night
+  name:
+    fr: "DATA NUIT"
+    en: "NIGHT DATA"
+  products:
+    - izimoon
+
+promo:
+  id: promo
+  name:
+    fr: "DATA PROMO"
+    en: "PROMO DATA"
+  products:
+    - iziweekend1
+    - iziweekend2
+    - iziflex1
+    - iziflex2
+
+fatta:
+  id: fatta
+  name:
+    fr: "FATTA"
+    en: "FATTA"
+  products:
+    - f150
+    - f250
+    - f450
+    - f600
+    - f900
+    - f1400
+    - f2500
+    - f5000
+    - f7000
+    - f9500
+
+moovnight:
+  id: moovnight
+  name:
+    fr: "MOOV NIGHT"
+    en: "MOOV NIGHT"
+  products:
+    - moovnight
+
+missoe:
+  id: missoe
+  name:
+    fr: "MISS OÉ"
+    en: "MISS OÉ"
+  products:
+    - missoe300
+    - p228
+    - p250
+    - p450
+    - p500
+    - p800
+    - p1000
+    - forfait_fatta
+
+miple:
+  id: miple
+  name:
+    fr: "MIPLÉ"
+    en: "MIPLÉ"
+  products:
+    - miple350
+    - miple500
+
+nolimit:
+  id: nolimit
+  name:
+    fr: "DATA NO LIMIT"
+    en: "DATA NO LIMIT"
+  products:
+    - pass15
+    - pass20
+    - pass30
+    - iziflow
+    - izibuzz
+
+n10:
+  id: n10
+  name:
+    fr: "GAMME N10"
+    en: "N10 RANGE"
+  products:
+    - n10voix
+    - n10data
+    - n10mixte1
+    - n10mixte2

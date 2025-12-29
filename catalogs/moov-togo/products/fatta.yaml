@@ -1,0 +1,133 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# FATTA (Voice + Data bundles)
+# ══════════════════════════════════════════════════════════════════════════════
+
+f150:
+  id: f150
+  name:
+    fr: "Fatta 150F"
+  basePrice: 150
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f250:
+  id: f250
+  name:
+    fr: "Fatta 250F"
+  basePrice: 250
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f450:
+  id: f450
+  name:
+    fr: "Fatta 450F"
+  basePrice: 450
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f600:
+  id: f600
+  name:
+    fr: "Fatta 600F"
+  basePrice: 600
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f900:
+  id: f900
+  name:
+    fr: "Fatta 900F"
+  basePrice: 900
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f1400:
+  id: f1400
+  name:
+    fr: "Fatta 1400F"
+  basePrice: 1400
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f2500:
+  id: f2500
+  name:
+    fr: "Fatta 2500F"
+  basePrice: 2500
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f5000:
+  id: f5000
+  name:
+    fr: "Fatta 5000F"
+  basePrice: 5000
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f7000:
+  id: f7000
+  name:
+    fr: "Fatta 7000F"
+  basePrice: 7000
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+f9500:
+  id: f9500
+  name:
+    fr: "Fatta 9500F"
+  basePrice: 9500
+  currency: XOF
+  tags: [combo, fatta]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

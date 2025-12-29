@@ -1,0 +1,107 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# MISS OÉ (Voice bundles)
+# ══════════════════════════════════════════════════════════════════════════════
+
+missoe300:
+  id: missoe300
+  name:
+    fr: "Miss Oé 300F"
+  basePrice: 300
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p228:
+  id: p228
+  name:
+    fr: "P228"
+  basePrice: 228
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p250:
+  id: p250
+  name:
+    fr: "P250"
+  basePrice: 250
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p450:
+  id: p450
+  name:
+    fr: "P450"
+  basePrice: 450
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p500:
+  id: p500
+  name:
+    fr: "P500"
+  basePrice: 500
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p800:
+  id: p800
+  name:
+    fr: "P800"
+  basePrice: 800
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+p1000:
+  id: p1000
+  name:
+    fr: "P1000"
+  basePrice: 1000
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+forfait_fatta:
+  id: forfait_fatta
+  name:
+    fr: "Forfait Fatta"
+  basePrice: 500
+  currency: XOF
+  tags: [voice, missoe]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

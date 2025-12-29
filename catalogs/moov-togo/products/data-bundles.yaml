@@ -1,0 +1,133 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# DATA BUNDLES (iZi range)
+# ══════════════════════════════════════════════════════════════════════════════
+
+izifree:
+  id: izifree
+  name:
+    fr: "iZi'Free 100F"
+  basePrice: 100
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izicool:
+  id: izicool
+  name:
+    fr: "iZiCool 200F"
+  basePrice: 200
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izikif:
+  id: izikif
+  name:
+    fr: "iZiKif 300F"
+  basePrice: 300
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izirelax:
+  id: izirelax
+  name:
+    fr: "iZiRelax 500F"
+  basePrice: 500
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+iziwik:
+  id: iziwik
+  name:
+    fr: "iZiWik 1000F"
+  basePrice: 1000
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izismall1:
+  id: izismall1
+  name:
+    fr: "iZi Small 1 2500F"
+  basePrice: 2500
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izismall2:
+  id: izismall2
+  name:
+    fr: "iZi Small 2 4500F"
+  basePrice: 4500
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izimedium1:
+  id: izimedium1
+  name:
+    fr: "iZi Medium 1 5000F"
+  basePrice: 5000
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izimedium2:
+  id: izimedium2
+  name:
+    fr: "iZi Medium 2 9000F"
+  basePrice: 9000
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izilarge:
+  id: izilarge
+  name:
+    fr: "iZi Large 15000F"
+  basePrice: 15000
+  currency: XOF
+  tags: [data, izi]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

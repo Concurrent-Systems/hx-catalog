@@ -1,0 +1,55 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# PROMO DATA (Weekend, Flex)
+# ══════════════════════════════════════════════════════════════════════════════
+
+iziweekend1:
+  id: iziweekend1
+  name:
+    fr: "iZi WeekEnd 1 500F"
+  basePrice: 500
+  currency: XOF
+  tags: [data, promo, weekend]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+iziweekend2:
+  id: iziweekend2
+  name:
+    fr: "iZi WeekEnd 2 1000F"
+  basePrice: 1000
+  currency: XOF
+  tags: [data, promo, weekend]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+iziflex1:
+  id: iziflex1
+  name:
+    fr: "iZi Flex 1 2000F"
+  basePrice: 2000
+  currency: XOF
+  tags: [data, promo, flex]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+iziflex2:
+  id: iziflex2
+  name:
+    fr: "iZi Flex 2 3000F"
+  basePrice: 3000
+  currency: XOF
+  tags: [data, promo, flex]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

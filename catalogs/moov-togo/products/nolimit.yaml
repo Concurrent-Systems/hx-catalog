@@ -1,0 +1,68 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# DATA NO LIMIT (Pass range)
+# ══════════════════════════════════════════════════════════════════════════════
+
+pass15:
+  id: pass15
+  name:
+    fr: "Pass 15"
+  basePrice: 1500
+  currency: XOF
+  tags: [data, nolimit]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+pass20:
+  id: pass20
+  name:
+    fr: "Pass 20"
+  basePrice: 2000
+  currency: XOF
+  tags: [data, nolimit]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+pass30:
+  id: pass30
+  name:
+    fr: "Pass 30"
+  basePrice: 3000
+  currency: XOF
+  tags: [data, nolimit]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+iziflow:
+  id: iziflow
+  name:
+    fr: "iZiFlow"
+  basePrice: 5000
+  currency: XOF
+  tags: [data, nolimit]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+izibuzz:
+  id: izibuzz
+  name:
+    fr: "iZiBuzz"
+  basePrice: 10000
+  currency: XOF
+  tags: [data, nolimit]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]

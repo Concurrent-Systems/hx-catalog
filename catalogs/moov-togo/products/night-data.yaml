@@ -1,0 +1,29 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# NIGHT DATA
+# ══════════════════════════════════════════════════════════════════════════════
+
+izimoon:
+  id: izimoon
+  name:
+    fr: "iZi Moon 200F"
+  basePrice: 200
+  currency: XOF
+  tags: [data, night]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
+
+moovnight:
+  id: moovnight
+  name:
+    fr: "Moov Night 100F"
+  basePrice: 100
+  currency: XOF
+  tags: [data, night]
+  visible:
+    channels: [ussd, app]
+    caller_type: [subscriber, agent]
+    service_class: [prepaid]
+    modes: [self, gift, sale]
