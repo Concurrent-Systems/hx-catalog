@@ -67,13 +67,21 @@ hx-dialog can use both fields for templated messages:
 
 ---
 
-## Dynamic Bonuses (Future)
+## Dynamic Bonuses (RuleForge)
 
-SmartShop has a `benefitsMultiplier` mechanism for campaigns:
-- Crediverse or RulesEngine can return a multiplier (e.g., 1.5)
-- Provisioning applies it: `300MB * 1.5 = 450MB`
+SmartShop is already integrated with RuleForge, which can apply a `benefitsMultiplier` for campaigns:
+- RuleForge evaluates rules and returns a multiplier (e.g., 1.5)
+- Provisioning applies it to the **total**: `300MB * 1.5 = 450MB`
 
-This is not used for Moov Togo's static products today, but hx-decisions (RuleForge) could implement similar logic.
+So there are two layers:
+1. **Static "bonus"** (catalog) - marketing split for display (180MB + 120MB bonus)
+2. **Dynamic multiplier** (RuleForge) - campaign bonus applied to total (300MB * 1.5)
+
+Example: iZi'Kif during a 50% bonus campaign:
+- Catalog: 180MB base + 120MB bonus = 300MB
+- RuleForge: 1.5x multiplier
+- Provisioned to OCS: 450MB
+- Customer message: "180Mo + 120Mo bonus + 150Mo campagne bonus"
 
 ---
 
